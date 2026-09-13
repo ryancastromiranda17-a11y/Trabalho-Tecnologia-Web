@@ -104,11 +104,13 @@ nav ul {
 }
 
 .painel-esquerdo {
+    flex: 1.5;
     background-color: whitesmoke;
     padding: 20px;
 }
 
 .principal-1 {
+    flex: 3;
     padding: 20px;
 }
 
@@ -117,6 +119,7 @@ nav ul {
 }
 
 .painel-direito {
+    flex: 1.5;
     padding: 20px;
     background-color: whitesmoke;
 }
