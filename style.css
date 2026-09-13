@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    ;
 }
 
 header {
@@ -24,10 +27,10 @@ nav {
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  background-color: black;
-  align-items: none;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items: none;
 }
 
 nav ul {
@@ -112,10 +115,17 @@ nav ul {
 .principal-1 {
     flex: 3;
     padding: 20px;
+    text-align: center;
 }
 
 .principal-2-baixo {
     padding: 20px;
+    text-align: center;
+}
+
+.texto-artigo {
+    padding: 20px;
+    text-align: center;
 }
 
 .painel-direito {
@@ -133,26 +143,26 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black ;
+    background-color: black;
     color: white;
 }
 
 @media (max-width: 768px) {
-  .conteudo-principal {
-    flex-direction: column;
-  }
+    .conteudo-principal {
+        flex-direction: column;
+    }
 
-  .coluna-esquerda,
-  .coluna-meio {
-    width: 100%;
-  }
+    .coluna-esquerda,
+    .coluna-meio {
+        width: 100%;
+    }
 
-  nav ul {
-    flex-wrap: wrap;
-  }
+    nav ul {
+        flex-wrap: wrap;
+    }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
