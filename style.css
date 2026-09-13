@@ -133,3 +133,23 @@ footer {
     background-color: black ;
     color: white;
 }
+
+@media (max-width: 768px) {
+  .conteudo-principal {
+    flex-direction: column;
+  }
+
+  .coluna-esquerda,
+  .coluna-meio {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
