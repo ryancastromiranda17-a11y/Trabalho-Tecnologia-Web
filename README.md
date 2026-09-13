@@ -1,0 +1,1 @@
+Site simples desenvolvido em HTML e CSS, com uma página inicial, menu de navegação, seção sobre o projeto, conteúdo em destaque e imagem principal. O projeto foi criado como prática de desenvolvimento web e estruturação de páginas.
