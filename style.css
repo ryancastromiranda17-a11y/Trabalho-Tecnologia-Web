@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -6,7 +7,7 @@ html, body {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     height: 100%;
 }
@@ -180,6 +181,8 @@ nav ul {
     background-color: whitesmoke;
 }
 
+
+
 footer {
     padding: 0px;
     margin: 0px;
@@ -203,11 +206,11 @@ footer {
 }
 
 form {
-  max-width: 500px;
-  margin: 40px auto; 
-  padding: 25px;
-  background-color: gray; 
-  border: 3px solid black;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: gray;
+    border: 3px solid black;
 }
 
 .nome1 {
@@ -266,6 +269,87 @@ form {
 .buttonenviar:hover {
     background-color: #555;
 }
+
+
+
+.tabelas {
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.tabela-ia {
+    width: 100%;
+    background-color: rgba(170, 169, 169, 0.644);
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+caption {
+    padding: 12px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+thead {
+    background-color: #faf8f8;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    padding: 12px;
+    border-collapse: collapse;
+
+
+
+}
+
+
+th {
+    font-size: 18px;
+}
+
+tr,
+td {
+    border: solid black 1px;
+    padding: 12px;
+    text-align: center;
+
+
+}
+
+
+
+td {
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+.td-cor {
+    color: #faf8f8;
+}
+
+tfoot {
+    text-align: center;
+    background-color: #5e5e5e;
+    color: #faf8f8
+}
+
+
 
 @media (max-width: 768px) {
     .conteudo-principal {
