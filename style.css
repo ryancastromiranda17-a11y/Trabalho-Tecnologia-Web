@@ -44,13 +44,6 @@ nav {
     height: 65px;
 }
 
-nav {
-    display: flex;
-    width: 100%;
-    background-color: black;
-    align-items: none;
-}
-
 nav ul {
     display: flex;
     width: 100%;
@@ -181,8 +174,6 @@ nav ul {
     background-color: whitesmoke;
 }
 
-
-
 footer {
     padding: 0px;
     margin: 0px;
@@ -270,8 +261,6 @@ form {
     background-color: #555;
 }
 
-
-
 .tabelas {
     width: 70%;
     margin: 40px auto;
@@ -286,13 +275,6 @@ form {
     border-collapse: collapse;
 }
 
-
-
-
-
-
-
-
 caption {
     padding: 12px;
     font-size: 18px;
@@ -301,7 +283,6 @@ caption {
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 600;
-
 }
 
 thead {
@@ -310,11 +291,7 @@ thead {
     font-family: "Inter", sans-serif;
     padding: 12px;
     border-collapse: collapse;
-
-
-
 }
-
 
 th {
     font-size: 18px;
@@ -325,19 +302,13 @@ td {
     border: solid black 1px;
     padding: 12px;
     text-align: center;
-
-
 }
-
-
 
 td {
     color: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-
 }
-
 
 .td-cor {
     color: #faf8f8;
@@ -349,7 +320,74 @@ tfoot {
     color: #faf8f8
 }
 
+.tabela-estilizada-container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
 
+.tabela-estilizada {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    table-layout: fixed;
+}
+
+.tabela-estilizada caption {
+    caption-side: top;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+}
+
+.tabela-estilizada thead {
+    background-color: #ffffff;
+}
+
+.tabela-estilizada th {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.tabela-estilizada tbody {
+    background-color: #cccccc;
+}
+
+.tabela-estilizada td {
+    border: 1px solid #000000;
+    padding: 12px 8px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.tabela-estilizada tfoot {
+    background-color: #000000;
+}
+
+.tabela-estilizada tfoot td {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px;
+    border: none;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .conteudo-principal {
