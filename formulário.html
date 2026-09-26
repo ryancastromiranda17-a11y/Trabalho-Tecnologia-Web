@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulário</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="pagina-inteiraa2">
+            <header>
+                <div>
+                    <h1>KRJ</h1>
+                    <p>Hora de você dar seu Feedback!</p>
+                </div>
+            </header>
+
+            <nav class="barra-navegacao" aria-label="Navegação principal">
+            <div class="conteudo-navegacao">
+                <ul class="links-navegacao">
+                    <li><a href="index.html" class="menu6">Voltar</a></li>
+                </ul>
+            </div>
+            </nav>
+
+            <form action="https://httpbin.org/post" method="post">
+                <div class="nome1">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br><br>
+                </div>
+                <div class="nome2">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome" required>
+                    <br><br>
+                </div>
+
+                <div class="pesquisaa">
+                    <label>Como você conheceu o site?</label><br>
+                    <input type="radio" id="amigo" name="conheceu" value="amigo">
+                    <label for="amigo">Por um amigo</label>
+           
+                    <input type="radio" id="redes" name="conheceu" value="redes">
+                    <label for="redes">Redes sociais</label>
+            
+                    <input type="radio" id="google" name="conheceu" value="google">
+                    <label for="google">Pesquisa no Google</label>
+                    <br><br>
+                </div>
+
+                <div class="selecao">
+                    <label for="avaliacao">Sua avaliação:</label>
+                    <select id="avaliacao" name="avaliacao">
+                    option value="">Selecione</option>
+                    <option value="otimo">Ótimo</option>
+                    <option value="bom">Bom</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                    </select>
+                    <br><br>
+                </div>
+
+                <div class="feedbeck">
+                    <label for="feedback">Deixe seu feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="5" cols="40" minlength="10" required></textarea>
+                    <br><br>
+                </div>
+            
+                <div>
+                    <small><button class="buttonenviar" type="submit">Enviar</button></small>
+                </div>
+
+            </form>
+
+            <footer class="rodape2">
+                <p>© 2026 KRJ. Todos os direitos reservados.</p>
+            </footer>
+
+            <script src="" async defer></script>
+        </div>
+    </body>
+</html>
