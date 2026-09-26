@@ -1,9 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    ;
+    height: 100%;
+}
+
+.pagina-inteiraa {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagina-inteiraa2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -101,6 +118,35 @@ nav ul {
     background-color: gray;
 }
 
+.menu5 {
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.menu5:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.menu6 {
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu6:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
 .conteudo-principal {
     display: flex;
     gap: 20px;
@@ -145,6 +191,80 @@ footer {
     align-items: center;
     background-color: black;
     color: white;
+}
+
+.rodape2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+
+form {
+  max-width: 500px;
+  margin: 40px auto; 
+  padding: 25px;
+  background-color: gray; 
+  border: 3px solid black;
+}
+
+.nome1 {
+    margin-bottom: 15px;
+}
+
+.nome1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nome2 {
+    margin-bottom: 15px;
+}
+
+.nome2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pesquisaa {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.selecao {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedbeck {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.buttonenviar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+.buttonenviar:hover {
+    background-color: #555;
 }
 
 @media (max-width: 768px) {
